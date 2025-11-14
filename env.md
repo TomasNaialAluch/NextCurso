@@ -1,0 +1,18 @@
+# Copy from .env.local on the Vercel dashboard
+# https://nextjs.org/learn/dashboard-app/setting-up-your-database#create-a-postgres-database
+Database_POSTGRES_URL="postgres://postgres.vgfjltbziwgdbdjzhzak:FbMVx555kGDDk7kV@aws-1-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x"
+Database_POSTGRES_USER="postgres"
+Database_POSTGRES_HOST="db.vgfjltbziwgdbdjzhzak.supabase.co"
+Database_SUPABASE_JWT_SECRET="Tf5aZQ8/6h8TrVYEZYIzRhIYQ65EyFrW7QmlR4kGKwAzwjKTe+IkPpr/nTnFwRxIt658Fsv2rfkqjxOt2d5bTQ=="
+Database_POSTGRES_PRISMA_URL="postgres://postgres.vgfjltbziwgdbdjzhzak:FbMVx555kGDDk7kV@aws-1-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&pgbouncer=true"
+Database_POSTGRES_PASSWORD="FbMVx555kGDDk7kV"
+Database_POSTGRES_DATABASE="postgres"
+Database_SUPABASE_URL="https://vgfjltbziwgdbdjzhzak.supabase.co"
+NEXT_PUBLIC_courseSUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZnZmpsdGJ6aXdnZGJkanpoemFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEzMzM3NzYsImV4cCI6MjA3NjkwOTc3Nn0.brildSHD5euYMFpsZE3yGxS5nbONoJi6B-ywXK4B-p8"
+NEXT_PUBLIC_courseSUPABASE_URL="https://vgfjltbziwgdbdjzhzak.supabase.co"
+NEXT_PUBLIC_Database_courseSUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZnZmpsdGJ6aXdnZGJkanpoemFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEzMzM3NzYsImV4cCI6MjA3NjkwOTc3Nn0.brildSHD5euYMFpsZE3yGxS5nbONoJi6B-ywXK4B-p8"
+Database_SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZnZmpsdGJ6aXdnZGJkanpoemFrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTMzMzc3NiwiZXhwIjoyMDc2OTA5Nzc2fQ.6ybkE7qrK2pvywXtK7BIPxlLuHDJGY72NLd1Nl2g1P0"
+Database_POSTGRES_URL_NON_POOLING="postgres://postgres.vgfjltbziwgdbdjzhzak:FbMVx555kGDDk7kV@aws-1-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require"
+# `openssl rand -base64 32`
+AUTH_SECRET=
+AUTH_URL=http://localhost:3000/api/auth
